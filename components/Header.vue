@@ -17,8 +17,14 @@
 
 <style scoped lang="scss">
 .header {
+    background-color: #150C07;
+    color: white;
     &__container {
         max-width: 1170px;
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     &__menu {
